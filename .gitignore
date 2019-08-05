@@ -21,6 +21,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 
 
 ### IntelliJ IDEA ###
@@ -30,3 +31,5 @@ hs_err_pid*
 *.ipr
 .idea
 /security-oauth2-dependencies
+=======
+>>>>>>> b1dea5fec048fe998ad55cdb40f443dea0273a63
