@@ -1,4 +1,3 @@
-
 spring:
   application:
     name: oauth2-server
@@ -20,9 +19,29 @@ spring:
       max-lifetime: 1800000
       connection-timeout: 30000
       connection-test-query: select 1
-
+  #thymeleaf
+  thymeleaf:
+    suffix: .html
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    cache: false
+    prefix: classpath:/templates/
+#  resources:
+#    static-locations:
+#    - classpath:/META-INF/resources/
+#    - classpath:/resources/
+#    - classpath:/static/
+#    - classpath:/public/
+#  mvc:
+#    static-path-pattern: /**
 server:
   port: 9090
 mybatis:
   type-aliases-package: com.zegobird.oauth2.domain
   mapper-locations: classpath:mapper/*.xml
+
+zegobird:
+  security:
+    browser:
+      loginPage: /login.html
+      loginType: REDIRECT

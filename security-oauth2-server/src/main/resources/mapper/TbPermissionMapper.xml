@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zegobird.oauth2.mapper.TbPermissionMapper">
-    <resultMap id="BaseResultMap" type="com.zegobird.oauth2.domain.TbPermission">
+<mapper namespace="com.zegobird.oauth2server.mapper.TbPermissionMapper">
+    <resultMap id="BaseResultMap" type="com.zegobird.oauth2server.domain.TbPermission">
         <!--@mbg.generated generated on Mon Aug 05 15:13:09 CST 2019.-->
         <id column="id" jdbcType="BIGINT" property="id"/>
         <result column="parent_id" jdbcType="BIGINT" property="parentId"/>
