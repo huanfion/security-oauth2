@@ -25,7 +25,7 @@ import java.io.IOException;
  * @date 2019/8/7 11:58
  */
 @Component("myAuthenticationSuccessHandler")
-public class MyAuthenticationSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
+public class ZBAuthenticationSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
 
     private Logger logger = LoggerFactory.getLogger(getClass());
     @Autowired

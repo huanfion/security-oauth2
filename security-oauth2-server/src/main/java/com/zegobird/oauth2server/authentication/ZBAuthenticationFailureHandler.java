@@ -25,7 +25,7 @@ import java.io.IOException;
  * @date 2019/8/7 16:03
  */
 @Component("myAuthenticationFailureHandler")
-public class MyAuthenticationFailureHandler extends SimpleUrlAuthenticationFailureHandler {
+public class ZBAuthenticationFailureHandler extends SimpleUrlAuthenticationFailureHandler {
     private Logger logger = LoggerFactory.getLogger(getClass());
     @Autowired
     private ObjectMapper objectMapper;

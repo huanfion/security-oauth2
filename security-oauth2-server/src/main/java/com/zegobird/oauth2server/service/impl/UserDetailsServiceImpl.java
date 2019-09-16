@@ -1,4 +1,4 @@
-package com.zegobird.oauth2server.server;
+package com.zegobird.oauth2server.service.impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.zegobird.oauth2server.domain.TbPermission;

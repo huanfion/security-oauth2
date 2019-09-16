@@ -47,7 +47,6 @@
 		$("#entry_btn").on("click",function () {
 			$.ajax({
 				url:"/authentication/form",
-				contentType : "application/x-www-form-urlencoded; charset=utf-8",
 				type:"POST",
 				data:{username:$("#username").val(),password:$("#password").val()},
 				beforeSend:function(request){
